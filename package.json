@@ -1,0 +1,30 @@
+{
+  "name": "devops-midterm-23-ntu-cs-1216",
+  "version": "1.0.0",
+  "description": "Mid-term",
+  "homepage": "https://github.com/zainulabideen23/devops-midterm-23-ntu-cs-1216#readme",
+  "bugs": {
+    "url": "https://github.com/zainulabideen23/devops-midterm-23-ntu-cs-1216/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zainulabideen23/devops-midterm-23-ntu-cs-1216.git"
+  },
+  "license": "ISC",
+  "author": "Zain",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
+  }
+}
