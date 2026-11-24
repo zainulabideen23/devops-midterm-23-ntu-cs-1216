@@ -7,7 +7,7 @@ function fee(weightKg) {
   }
 
   if (weightKg <= 1) return 200;
-  if (weightKg < 5) return 350;
+  if (weightKg <= 5) return 350;
   if (weightKg <= 20) return 800;
 
   return 1500;
